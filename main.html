@@ -2,16 +2,86 @@
 <html>
     <head>
         <!-- 網頁編碼 -->
-        <meta charset="UTF-8"></meta>
-        <title>Hami世一</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="CSS/styles.css">        
+        <title>Calculator</title>
     </head>
-    <body>
-        <!-- Part One -->        
-        <h1>又是想念Hami的一天</h1>        
-        <img src="Source/Hami_1.png"></img>
-
-        <!-- Part Two -->
-        <p>每天起床要看一次Hami</p>        
-        <a href="https://youtu.be/3sha8yMRaZo">Hami 的訪問片段</a>
+    <body>   
+        <div class="wrapper">
+        <!-- Calculator Screen -->
+            <section class="screen">
+                0
+            </section>
+        <!-- Calculator Buttons -->
+        <section class="calculatorButtons">
+            <div class="CalculatorButtonRow">
+                <button class="calculatorButton">
+                    C
+                </button>
+                <button class="calculatorButton">
+                    &larr;
+                </button>
+                <button class="calculatorButton">
+                    &divide;
+                </button>
+            </div>
+            <!-- Second Row -->
+            <div class="CalculatorButtonRow">
+                <button class="calculatorButton">
+                    7
+                </button>
+                <button class="calculatorButton">
+                    8
+                </button>
+                <button class="calculatorButton">
+                    9
+                </button>
+                <button class="calculatorButton">
+                    &times;
+                </button>
+            </div>
+            <!-- Third Row -->
+            <div class="CalculatorButtonRow">
+                <button class="calculatorButton">
+                    4
+                </button>
+                <button class="calculatorButton">
+                    5
+                </button>
+                <button class="calculatorButton">
+                    6
+                </button>
+                <button class="calculatorButton">
+                    &minus;
+                </button>
+            </div>
+            <!-- Forth Row -->
+            <div class="CalculatorButtonRow">
+                <button class="calculatorButton">
+                    1
+                </button>
+                <button class="calculatorButton">
+                    2
+                </button>
+                <button class="calculatorButton">
+                    3
+                </button>
+                <button class="calculatorButton">
+                    &plus;
+                </button>
+            </div>
+            <!-- Fifth Row -->
+            <div class="CalculatorButtonRow">
+                <button class="calculatorButton">
+                    0
+                </button>
+                <button class="calculatorButton">
+                    &equals;
+                </button>
+            </div>
+        </section>      
+        </div>
+        <script src="JS/main.js"></script>
     </body>
 </html>
