@@ -1,0 +1,16 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+
+}
+body
+{
+    background-color: wheat;
+    /*align-items: center;*/
+    background: linear-gradient(320deg, #a9ff08,#00ff84, #1255ff);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
